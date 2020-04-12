@@ -31,13 +31,5 @@ namespace TestNinja.UnitTest.Mocking
 
             employeeService.Verify(fr => fr.DeleteAndSave(1));
         }
-
-        [Test]
-        public void DeleteEmployee_WhenCalled_DeletesEmployeeFromDB()
-        {
-            var result = employeeController.DeleteEmployee(1);
-
-            employeeService.Verify(fr => fr.DeleteAndSave(1));
-        }
     }
 }
