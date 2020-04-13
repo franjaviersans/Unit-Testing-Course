@@ -64,6 +64,7 @@
     <Compile Include="Mocking\EmployeeService.cs" />
     <Compile Include="Mocking\FileDownloader.cs" />
     <Compile Include="Mocking\FileReader.cs" />
+    <Compile Include="Mocking\HousekeeperHelper.cs" />
     <Compile Include="Mocking\IBookingStore.cs" />
     <Compile Include="Mocking\IEmployeeService.cs" />
     <Compile Include="Mocking\IFileDownloader.cs" />
