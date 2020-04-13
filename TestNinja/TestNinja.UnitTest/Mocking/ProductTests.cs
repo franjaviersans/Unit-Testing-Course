@@ -5,7 +5,7 @@ using TestNinja.Mocking;
 namespace TestNinja.UnitTest.Mocking
 {
     [TestFixture]
-    class ProductUnitTest
+    class ProductTests
     {
         [Test]
         public void GetPrice_GoldCostumer_30PercentDiscoint(){

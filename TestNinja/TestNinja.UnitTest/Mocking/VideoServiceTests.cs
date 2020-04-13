@@ -7,7 +7,7 @@ using TestNinja.Mocking;
 namespace TestNinja.UnitTest.Mocking
 {
     [TestFixture]
-    class VideoServiceUnitTests
+    class VideoServiceTests
     {
         private Mock<IFileReader> _fileReader;
         private Mock<IVideoRepository> _videoRepository;

@@ -8,7 +8,7 @@ using TestNinja.Mocking;
 namespace TestNinja.UnitTest.Mocking
 {
     [TestFixture]
-    class BookingHelperUnitTests
+    class BookingHelperTests
     {
         BookingHelper _bookingHelper;
         Mock<IBookingStore> _bookingStore;

@@ -6,7 +6,7 @@ using TestNinja.Mocking;
 namespace TestNinja.UnitTest.Mocking
 {
     [TestFixture]
-    class InstallerHelperUnitTest
+    class InstallerHelperTests
     {
         Mock<IFileDownloader> _fileDownloader;
         InstallerHelper _isntallerHelper;
