@@ -5,7 +5,7 @@ using TestNinja.Mocking;
 namespace TestNinja.UnitTest.Mocking
 {
     [TestFixture]
-    class OrderServiceUnitTests
+    class OrderServiceTests
     {
         [Test]
         public void PlaceOrder_WhenCalled_StoreObject()

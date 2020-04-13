@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace TestNinja.UnitTest
+namespace TestNinja.UnitTest.Fundamentlas
 {
     [TestFixture]
     public class MathTests
